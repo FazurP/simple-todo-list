@@ -1,0 +1,6 @@
+<div class="container">
+    <h1>Tasks</h1>
+    <div class="task-list">
+        <app-task style="margin: 5px;" *ngFor="let item of tasks" [item]="item" (deleteTask)="deleteTask($event)"></app-task>
+    </div>      
+</div>  

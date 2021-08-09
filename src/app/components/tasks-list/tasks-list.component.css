@@ -1,0 +1,17 @@
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    max-height: 80vh;
+    max-width: 20vw;
+    overflow: scroll;
+}
+
+/* width */
+::-webkit-scrollbar {
+    display: none ;
+  }
+
+
